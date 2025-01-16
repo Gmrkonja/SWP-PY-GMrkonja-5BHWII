@@ -57,6 +57,11 @@ def main():
     print(len(a1))
 
     try:
+        a3 = Auto("Text")
+    except Exception as error:
+        print(error)
+
+    try:
         print(a1 + 5)
     except Exception as error:
         print(error)
