@@ -56,6 +56,22 @@ def main():
 
     print(len(a1))
 
+    try:
+        print(a1 + 5)
+    except Exception as error:
+        print(error)
+
+    
+    try:
+        print(a1 - "Test")
+    except Exception as error:
+        print(error)
+
+    try:
+        print(a1 * a2)
+    except Exception as error:
+        print(error)
+
     
 
 
